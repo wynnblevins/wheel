@@ -1,5 +1,4 @@
 import { createStyles, makeStyles } from '@mui/styles';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { Wheel } from './components';
 
 const useStyles = makeStyles(() =>
@@ -13,8 +12,8 @@ const useStyles = makeStyles(() =>
     },
     container: {
       position: 'relative',
-      width: '400px',
-      height: '400px',
+      width: '300px',
+      height: '300px',
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center'
@@ -22,8 +21,6 @@ const useStyles = makeStyles(() =>
     
   }),
 );
-
-const theme = createTheme();
 
 const App = () => {
   const classes = useStyles();

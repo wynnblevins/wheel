@@ -57,9 +57,9 @@ const Wheel = () => {
     <div className={classes.wheel}>
       <span id="wheelItem0" className={classes.firstSection}>
         <svg width="300" height="300">
-          <path fill="none" id="curve" d="M10 15 Q60 15, 125 60"></path>
+          <path fill="none" id="curve" d="M15 15 Q60 15, 125 72"></path>
           <text>
-            <textPath style={{fontSize: "10px"}} href="#curve">My curved text blah blah</textPath>
+            <textPath style={{fontSize: "10px"}} href="#curve">My curved text</textPath>
           </text>
         </svg>
       </span>
@@ -67,14 +67,14 @@ const Wheel = () => {
         <svg width="300" height="300">
           <path fill="none" id="curve" d="M10 15 Q60 15, 125 60"></path>
           <text>
-            <textPath style={{fontSize: "10px"}} href="#curve">My curved text blah blah</textPath>
+            <textPath style={{fontSize: "10px"}} href="#curve">My curved text</textPath>
           </text>
         </svg>
       </span>
       <span id="wheelItem2" className={classes.thirdSection}><svg width="300" height="300">
         <path fill="none" id="curve" d="M10 15 Q60 15, 125 60"></path>
           <text>
-            <textPath style={{fontSize: "10px"}} href="#curve">My curved text blah blah</textPath>
+            <textPath style={{fontSize: "10px"}} href="#curve">My curved text</textPath>
           </text>
         </svg>
       </span>
@@ -82,7 +82,7 @@ const Wheel = () => {
         <svg width="300" height="300">
           <path fill="none" id="curve" d="M10 15 Q60 15, 125 60"></path>
           <text>
-            <textPath style={{fontSize: "10px"}} href="#curve">My curved text blah blah</textPath>
+            <textPath style={{fontSize: "10px"}} href="#curve">My curved text</textPath>
           </text>
         </svg>
       </span>
@@ -90,7 +90,7 @@ const Wheel = () => {
       <svg width="300" height="300">
         <path fill="none" id="curve" d="M10 15 Q60 15, 125 60"></path>
           <text>
-            <textPath style={{fontSize: "10px"}} href="#curve">My curved text blah blah</textPath>
+            <textPath style={{fontSize: "10px"}} href="#curve">My curved text</textPath>
           </text>
         </svg>
       </span>
@@ -98,7 +98,7 @@ const Wheel = () => {
         <svg width="300" height="300">
           <path fill="none" id="curve" d="M10 15 Q60 15, 125 60"></path>
           <text>
-            <textPath style={{fontSize: "10px"}} href="#curve">My curved text blah blah</textPath>
+            <textPath style={{fontSize: "10px"}} href="#curve">My curved text</textPath>
           </text>
         </svg>
       </span>
@@ -106,7 +106,7 @@ const Wheel = () => {
         <svg width="300" height="300">
           <path fill="none" id="curve" d="M10 15 Q60 15, 125 60"></path>
           <text>
-            <textPath style={{fontSize: "10px"}} href="#curve">My curved text blah blah</textPath>
+            <textPath style={{fontSize: "10px"}} href="#curve">My curved text</textPath>
           </text>
         </svg>
       </span>
@@ -114,7 +114,7 @@ const Wheel = () => {
         <svg width="300" height="300">
           <path fill="none" id="curve" d="M10 15 Q60 15, 125 60"></path>
           <text>
-            <textPath style={{fontSize: "10px"}} href="#curve">My curved text blah blah</textPath>
+            <textPath style={{fontSize: "10px"}} href="#curve">My curved text</textPath>
           </text>
         </svg>
       </span>
